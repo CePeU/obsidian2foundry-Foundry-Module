@@ -1,22 +1,32 @@
 {
   "id": "obsidian2foundry",
-  "title": "Obsidian 2 Foundry",
+  "title": "Obsidian to Foundry",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
     "maximum": "13"
   },
-    "styles": [
-    "styles/Callouts.css"
-  ],
+  "description": "Adds the necessary css to Foundry to allow same styling between Obsidian Markdown2Foundry plugin and Foundry journals",
   "authors": [
     {
       "name": "CePeU",
-      "email": "xcepeu@gmail.com",
-      "url": "www.obsidian2foundry.com",
       "discord": "CePeU",
       "flags": {}
     }
-  ]
+  ],
+  "esmodules": [
+  "scripts/main.js"
+],
+  "styles": [
+    "styles/Callouts.css"
+  ],
+"url": "https://github.com/CePeU/obsidian2foundry-Foundry-Module/",
+"manifest": "https://github.com/CePeU/obsidian2foundry-Foundry-Module/releases/latest/download/module.json",
+"download": "https://github.com/CePeU/obsidian2foundry-Foundry-Module/latest/download/obsidian2foundry.zip",
+"readme": "https://github.com/CePeU/obsidian2foundry-Foundry-Module/blob/main/README.md",
+"bugs": "https://github.com/CePeU/obsidian2foundry-Foundry-Module/issues",
+"changelog": "https://github.com/CePeU/obsidian2foundry-Foundry-Module/blob/main/CHANGELOG.md",
+"library": false,
+"media": [] 
 }
