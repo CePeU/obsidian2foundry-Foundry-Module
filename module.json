@@ -1,0 +1,22 @@
+{
+  "id": "obsidian2foundry",
+  "title": "Obsidian 2 Foundry",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+    "styles": [
+    "styles/Callouts.css"
+  ],
+  "authors": [
+    {
+      "name": "CePeU",
+      "email": "xcepeu@gmail.com",
+      "url": "www.obsidian2foundry.com",
+      "discord": "CePeU",
+      "flags": {}
+    }
+  ]
+}
