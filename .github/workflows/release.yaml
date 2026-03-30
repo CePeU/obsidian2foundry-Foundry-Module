@@ -29,7 +29,6 @@ jobs:
           cp module.json ./obsdian2foundry/
           cp ./styles/*.css ./obsdian2foundry/styles/
           cp ./scripts/main.js ./obsdian2foundry/scripts/
-          cp ./lang/*.* ./obsdian2foundry/lang/
           zip -r obsdian2foundry.zip obsdian2foundry
 
       - name: Create release
