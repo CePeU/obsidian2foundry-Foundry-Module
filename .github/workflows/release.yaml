@@ -22,14 +22,14 @@ jobs:
 
       - name: Zip output
         run: |
-          mkdir obsdian2foundry
-          mkdir obsdian2foundry/scripts
-          mkdir obsdian2foundry/styles
-          mkdir obsdian2foundry/lang
-          cp module.json ./obsdian2foundry/
-          cp ./styles/*.css ./obsdian2foundry/styles/
-          cp ./scripts/main.js ./obsdian2foundry/scripts/
-          zip -r obsdian2foundry.zip obsdian2foundry
+          mkdir obsidian2foundry
+          mkdir obsidian2foundry/scripts
+          mkdir obsidian2foundry/styles
+          mkdir obsidian2foundry/lang
+          cp module.json ./obsidian2foundry/
+          cp ./styles/*.css ./obsidian2foundry/styles/
+          cp ./scripts/main.js ./obsidian2foundry/scripts/
+          zip -r obsidian2foundry.zip obsidian2foundry
 
       - name: Create release
         env:
@@ -42,4 +42,4 @@ jobs:
           gh release create "$tag" \
             --title="Release $tag" \
             --draft \
-            module.json obsdian2foundry.zip
+            module.json obsidian2foundry.zip
